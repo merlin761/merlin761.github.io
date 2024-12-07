@@ -31,6 +31,7 @@ Inn the video i made sure to  show case the existing functionalities of each art
 </p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## **Artifact 1 Software Engineering and Design**
 
 <p style="text-indent: 55px;">
