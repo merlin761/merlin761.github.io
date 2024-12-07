@@ -30,7 +30,7 @@ My code review video contains the three artifacts. I made sure to analyze each a
 Inn the video i made sure to  show case the existing functionalities of each artifact as well the enhancements what areas i was going to update and how i was going to make the artifact better in addition to the code Analysis where i show case the planned enhancements that address issues raised in the code analysis.
 </p>
 
-[This video was uploaded to Youtube and i utlized powepoint to record](https://www.youtube.com/watch?v=bhPCX5J6J1c)
+[This video was uploaded to Youtube](https://www.youtube.com/watch?v=bhPCX5J6J1c)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
