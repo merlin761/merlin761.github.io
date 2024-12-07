@@ -1,4 +1,6 @@
-theme: jekyll-theme-merlot
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
 url: merlin761.github.io
 title: Welcome to Merlin homepage !
 description: This is my ePotfolio for my CS-499-17487-M01 Computer Science Capstone !
