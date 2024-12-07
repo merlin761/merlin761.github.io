@@ -1,2 +1,3 @@
-merlin761.github.io
-jekyll-Merlot
+# *merlin761.github.io*
+## Software Engineering ePortfolio
+### *CS499 Computer Science Capstone*
