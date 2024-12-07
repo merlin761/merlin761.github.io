@@ -42,7 +42,8 @@ Grazioso Salvare where i was able to transferring the language from python to C+
 
 
 </p>
-[Link to Enhanced Gracioso zalvare Application]( https://github.com/merlin761/merlin761.github.io/tree/artifact-1 ) 
+
+[Link to Enhanced Gracioso zalvare Application](https://github.com/merlin761/merlin761.github.io/tree/artifact-1) 
 
 
 ## **Artifact 2 Algorithms and Data Structures** 
@@ -52,7 +53,8 @@ Grazioso Salvare where i was able to transferring the language from python to C+
 <p style="text-indent: 55px;">
 This was my final project from my class CS 410, where we had to reverse and correct the bugs to make the code from O to C++. This was my last project from last semester back in Sept 2024. The reason why I chose this project was because I liked the project since we had to add whatever we wanted to make the design of the code better, which I think I did a pretty good job on; however, I felt like I could have done a better job in the security aspect, and I think I can change that now that I'm given the opportunity. like I can make sure the code is better structured and I use a safe and better way to access the clients information, like storing the passwords as  an encryptio and adding it to the database so it can be accessed with no issues, making the code more secure with a built-in database to save data and a safe password.
 </p>
-[Link to  Database]( https://github.com/merlin761/merlin761.github.io/tree/artifact-2-and-3 )
+
+[Link to Database](https://github.com/merlin761/merlin761.github.io/tree/artifact-2-and-3)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
