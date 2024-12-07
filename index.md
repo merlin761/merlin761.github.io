@@ -10,8 +10,8 @@ My name is Merlin Martinez and i am an alumni at Southern New Hampshire Universi
 ### <u>Table of Content</u>
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
-2. Code Review
-3. Software Design and Engineering: Zoo Code Translation
+&nbsp;[Refinement Plan and Code Review](#codereview "Code Review")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact 1 Software Design and Engineering_](#artifact-1-software-engineering-and-design "Artifact Software Software Engineering and Design")<br/>
 4. Algorithms and Data Structure: Project Two CS 410
 5. Databases:Project Two CS 410 MongoDB Database Enhancement
 
