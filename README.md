@@ -13,6 +13,7 @@
 4. Algorithms and Data Structure: Project Two CS 410
 5. Databases:Project Two CS 410 MongoDB Database Enhancement
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### *Professional Self-Assessment:*
 
