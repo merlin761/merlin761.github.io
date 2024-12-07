@@ -37,7 +37,7 @@ Inn the video i made sure to  show case the existing functionalities of each art
 <p style="text-indent: 55px;">
 
 The artifact I have chosen for Enhancement One: Software Design and Engineering is the last project from my class CS 340 
-Grazioso Salvare where i was able to transferring the language from python to C++. this was not a easy project because i had to re do the data base using mongodb input all the data to ensure the code was wroking like it was supposed to.
+Grazioso Salvare where i was able to transferring the language from python to C++. this was not a easy project because i had to re do the data base using mongodb input all the data to ensure the code was wroking like it was supposed to. My use of the C++ programming language in this project hcan show the impressive improvement i had throught the pass years it help me enhance the structure of the code to better the system. In addition to how I designed and evaluated the computing solutions i was able to solve the given problem using proper code design and computer science practices standards with appropriate solution, while managing the trade-offs involved in the code design choices. i made sure to make minimal changes just the necessary changes to make sure my code work properly and is easy to understand.
 
 </p>
 
