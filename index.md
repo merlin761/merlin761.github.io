@@ -31,14 +31,12 @@ Inn the video i made sure to  show case the existing functionalities of each art
 </p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ## **Artifact 1 Software Engineering and Design**
 
 <p style="text-indent: 55px;">
 
 The artifact I have chosen for Enhancement One: Software Design and Engineering is the last project from my class CS 340 
 Grazioso Salvare where i was able to transferring the language from python to C++. this was not a easy project because i had to re do the data base using mongodb input all the data to ensure the code was wroking like it was supposed to.
-
 
 </p>
 
