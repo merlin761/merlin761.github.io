@@ -43,7 +43,7 @@ Grazioso Salvare where i was able to transferring the language from python to C+
 </p>
 
 
-## **Artifact 2 Algorithms and Data Structures**
+## **Artifact 2 Algorithms and Data Structures** 
 ## **Databases**
 
 <p style="text-indent: 55px;">
