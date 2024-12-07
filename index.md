@@ -12,8 +12,8 @@ My name is Merlin Martinez and i am an alumni at Southern New Hampshire Universi
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
 &nbsp;[Refinement Plan and Code Review](#codereview "Code Review")<br/>
 &nbsp;[_Artifact 1 Software Engineering_and Design](#artifact-1-software-engineering-and-design "Artifact Software Software Engineering and Design")<br/>
-4. Algorithms and Data Structure: Project Two CS 410
-5. Databases:Project Two CS 410 MongoDB Database Enhancement
+&nbsp;[Algorithms and Data Structure: Project Two CS 410](#Algorithms-and-Data-Structure:-Project-Two-CS-410 "Algorithms and Data Structure: Project Two CS 410")<br/>
+&nbsp;[Databases:Project Two CS 410 MongoDB Database Enhancement](#Databases:Project-Two-CS-410-MongoDB-Database-Enhancement "Databases:Project Two CS 410 MongoDB Database Enhancement")<br/>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
