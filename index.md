@@ -1,4 +1,4 @@
-#*merlin761.github.io*
+*merlin761.github.io*
 ## Software Engineering ePortfolio
 ### *CS499 Computer Science Capstone*
 
