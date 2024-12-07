@@ -4,7 +4,6 @@
 
 ```
 ```
-,,,,
 My name is Merlin Martinez and i am an alumni at Southern New Hampshire University , majored in Computer Science with a concentration in Software Engineering! I had the pleasure to work with the best professors and learn from them i will be leaving here down bellow my best projects i did while i was in Southern New Hampshire University where i gained skills and knowledge from my professors.
 
 ## *Table of Content*
