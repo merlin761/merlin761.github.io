@@ -2,3 +2,5 @@ remote_theme: pages-themes/slate@v0.2.0
 url: merlin761.github.io
 title: Welcome to Merlin homepage !
 description: This is my ePotfolio for my CS-499-17487-M01 Computer Science Capstone !
+show_downloads: false
+google_analytics: "GTM-PTHS2KL"
