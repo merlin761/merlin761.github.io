@@ -4,7 +4,7 @@
 
 
 
-*My name is Merlin Martinez and i am an alumni at Southern New Hampshire University , majored in Computer Science with a concentration in Software Engineering! I had the pleasure to work with the best professors and learn from them i will be leaving here down bellow my best projects i did while i was in Southern New Hampshire University where i gained skills and knowledge from my professors. *
+##*My name is Merlin Martinez and i am an alumni at Southern New Hampshire University , majored in Computer Science with a concentration in Software Engineering! I had the pleasure to work with the best professors and learn from them i will be leaving here down bellow my best projects i did while i was in Southern New Hampshire University where i gained skills and knowledge from my professors. *
 
 ## *Table of Content*
 1. Professional Self-Assessment
@@ -40,6 +40,14 @@ The artifact I have chosen for Enhancement One: Software Design and Engineering 
 Grazioso Salvare where i was able to transferring the language from python to C++. this was not a easy project because i had to re do the data base using mongodb input all the data to ensure the code was wroking like it was supposed to. My use of the C++ programming language in this project hcan show the impressive improvement i had throught the pass years it help me enhance the structure of the code to better the system. In addition to how I designed and evaluated the computing solutions i was able to solve the given problem using proper code design and computer science practices standards with appropriate solution, while managing the trade-offs involved in the code design choices. i made sure to make minimal changes just the necessary changes to make sure my code work properly and is easy to understand.
 
 </p>
+
+## **Artifact 2 Algorithms and Data Structures**
+
+<p style="text-indent: 55px;">
+
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
