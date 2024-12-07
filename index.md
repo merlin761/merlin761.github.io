@@ -4,7 +4,19 @@
 
 ```
 ```
+@import "normalize";
+@import "fonts";
+@import "rouge-base16-dark.scss";
 
+body {
+  padding:0px 0 20px 0px;
+  margin: 0px;
+  font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#f0e7d5;
+  font-weight: normal;
+  background: #252525;
+  background-attachment: fixed !important;
+  background: linear-gradient(#2a2a29, #1c1c1c);
 My name is Merlin Martinez and i am an alumni at Southern New Hampshire University , majored in Computer Science with a concentration in Software Engineering! I had the pleasure to work with the best professors and learn from them i will be leaving here down bellow my best projects i did while i was in Southern New Hampshire University where i gained skills and knowledge from my professors.
 
 ## *Table of Content*
