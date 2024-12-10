@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 ## Welcome to Merlin Software Engineering ePortfolio
 
