@@ -1,4 +1,6 @@
-theme: jekyll-theme-merlot
+theme: Hacker theme
 url: merlin761.github.io
+show_downloads: true
+google_analytics: FALSE
 title: Welcome to Merlin homepage !
 description: This is my ePotfolio for my CS-499-17487-M01 Computer Science Capstone !
