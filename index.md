@@ -14,7 +14,7 @@ My name is Merlin Martinez and i am an alumni at Southern New Hampshire Universi
 &nbsp;[Artifact 2 Algorithms and Data Structures](#Artifact-2-Algorithms-and-Data-Structures "Artifact 2 Algorithms and Data Structures")<br/>
 &nbsp;[Artifact 3 Databases](#Artifact-3-Databases "Databases:Project Two CS 410 MongoDB Database Enhancement")<br/>
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### *Professional Self-Assessment:*
 <p style="text-indent: 55px;"> 
@@ -32,7 +32,6 @@ Inn the video i made sure to  show case the existing functionalities of each art
 
 [This video was uploaded to Youtube](https://www.youtube.com/watch?v=bhPCX5J6J1c)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Artifact 1 Software Engineering and Design**
 
