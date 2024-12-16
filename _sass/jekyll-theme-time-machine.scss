@@ -42,7 +42,7 @@ h1.title {
 #container {
   border: 1px solid #d0e5f5;
   background: #ddd url(../images/pattern.png);
-  box-shadow: 0 0 5px #b1b1b1;
+  box-shadow: 0 0 5px #f2f4f5;
 }
 
 p.tagline {
@@ -59,7 +59,7 @@ p.tagline {
 
 .download-bar {
   background: #ced7f2;
-  border: 5px solid #444;
+  border: 5px solid #f2f4f5;
   padding: 10px;
   margin: 0 -35px 20px;
   position: relative;
@@ -72,7 +72,7 @@ p.tagline {
 .download-bar .watch-fork iframe {
   display: block;
   float: left;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #f2f4f5;
   padding-right: 5px;
 }
 .download-bar .watch-fork iframe.last {
