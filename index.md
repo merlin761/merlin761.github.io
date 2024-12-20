@@ -61,4 +61,4 @@ for the customers JSON file i added the following.
   }
 ]
 ```
-By doing these steps i was able to create a new database to store private data and hash the password so it can be safe and harder to acesss.
+By doing these steps i was able to create a new database to store private data and hash the password so it can be safe and harder to acesss. later on on the main.cpp file i deleted the user and password that was written on the code so i could keep eveything safe.
