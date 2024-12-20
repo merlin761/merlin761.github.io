@@ -61,3 +61,4 @@ for the customers JSON file i added the following.
   }
 ]
 ```
+By doing these steps i was able to create a new database to store private data and hash the password so it can be safe and harder to acesss.
