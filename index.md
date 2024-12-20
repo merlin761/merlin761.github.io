@@ -5,9 +5,7 @@ layout: default
 ## Welcome to Merlin Software Engineering ePortfolio
 
 
-
-
-My name is Merlin Martinez and i am an alumni at Southern New Hampshire University, I majored in Computer Science with a concentration in Software Engineering! I had the pleasure of working with the best professors and learning from them. I will be leaving here down below my best projects i did while i was at Southern New Hampshire University, where i gained skills and knowledge from my professors.
+My name is Merlin Martinez and i am a student at Southern New Hampshire University, I majored in Computer Science with a concentration in Software Engineering. I had the pleasure of working with the best professors and learning from them. I will be leaving here down below my best projects i did while i was at Southern New Hampshire University, where i gained skills and knowledge from my professors.
 
 # <u>Table of Content</u>
 
@@ -21,7 +19,10 @@ My name is Merlin Martinez and i am an alumni at Southern New Hampshire Universi
 
 ### *Professional Self-Assessment:*
 
-While being a student here at SNHU wasthough for me however i can say i learned a lot in the mids of a new baby, job and moving to a new state was able to finish my major and learn from the very best professors that taught me knew skils in computer science i had the luck to learn about databases, security, Software Testing, Automation, and Quality Assurance, testing and many more classes that have taught valuable lessons in my future. even tho i loved every single class and i had my difficulties in life i made sure even if it was though to spend the whole night if it was necessary to learn the material, to ask questions to peers and professors even if i learned a lot i hope i can keep learning every day more so i can continue my path and my pation in the tecnology field. it was not a easy road many slepless night where i cried and i told myself i couldnt do it because the class was hard i was ablke to learn and pass my classes even while i was in the hospital i made sure to finish my homework because i wanted a better future for myself as well i wanted finish my carrer in the field i loved since i was a kid. I this is my beggining of just one finish line i know i will be a better programer i will keep becoming better with every year that comes by.
+While being a student here at SNHU was though for me, however i can say i learned a lot in the mids of a new baby, job and moving to a new state i was able to finish my major and learn from the very best professors, these great professors taught me knew skils in computer science i had the luck to learn about databases, security, Software Testing, Automation, and Quality Assurance and many more classes that have taught valuable lessons for my future. even though i loved every single class and i had my difficulties in life i made sure to spend the whole night if it was necessary to learn the material, to ask questions to peers and professors. 
+I hope i can keep learning every day more so i can continue my path and my pation in the tecnology field. It was not a easy road many slepless night where i cried and i told myself i couldnt do it because the class was hard or that i was not going to learn nor pass my classes, even while i was in the hospital i made sure to finish my homework because i wanted a better future for myself. I didnt wanted to give up because i had people betting for me, telling me constantly not to give up and giving me a hand, in addition, i always had so much pation for tecnology since i was young. This is my beginning and not the finish line i know i will be a better programer i will keep becoming better with every year that comes by.
+
+I obtained a lot of knowledge while going to SNHU and every single step for a developer is important and through out my course outcomes i learned them and here i will give a summary of my knowledge of each of them.
 
 
 ## **Code Review**
