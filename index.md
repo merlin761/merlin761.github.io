@@ -38,6 +38,6 @@ public:
 ```
 
 Here is a screenshot of the working O. file where i converted the file from C++ to O.
-```
+
 <img src="GRS410M7.png">
-```
+
