@@ -19,5 +19,3 @@ for this project i used mongodb compass wich it was easy to use and where i inse
 ]
 
   '''
-'''
-#
