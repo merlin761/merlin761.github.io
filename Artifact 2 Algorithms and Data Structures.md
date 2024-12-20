@@ -26,3 +26,38 @@ after i added this data as a JSON file i decide i wanted to add the encripted pa
 db.Employe.insert({"name":"merlin", "password": "YUbe18@"});
 db.Employe.insert({"name":"merlin", "password": fromStringToHash("YUbe18@")});
 ```
+for the customers JSON file i added the following.
+```
+[
+  {
+    "id": 1,
+    "name": "Bob Jones",
+    "DOB": "09/17/1988",
+    "Role": "Client"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Davis",
+    "DOB": "04/17/2008",
+    "Role": "Client"
+  },
+  {
+    "id": 3,
+    "name": "Amy Friendly",
+    "DOB": "03/15/1998",
+    "Role": "Client"
+  },
+  {
+    "id": 4,
+    "name": "Johnny Smith",
+    "DOB": "05/07/1978",
+    "Role": "Client"
+  },
+  {
+    "id": 5,
+    "name": "Carol Spears",
+    "DOB": "08/12/1988",
+    "Role": "Client"
+  }
+]
+```
