@@ -22,7 +22,25 @@ My name is Merlin Martinez and i am a student at Southern New Hampshire Universi
 While being a student here at SNHU was though for me, however i can say i learned a lot in the mids of a new baby, job and moving to a new state i was able to finish my major and learn from the very best professors, these great professors taught me knew skils in computer science i had the luck to learn about databases, security, Software Testing, Automation, and Quality Assurance and many more classes that have taught valuable lessons for my future. even though i loved every single class and i had my difficulties in life i made sure to spend the whole night if it was necessary to learn the material, to ask questions to peers and professors. 
 I hope i can keep learning every day more so i can continue my path and my pation in the tecnology field. It was not a easy road many slepless night where i cried and i told myself i couldnt do it because the class was hard or that i was not going to learn nor pass my classes, even while i was in the hospital i made sure to finish my homework because i wanted a better future for myself. I didnt wanted to give up because i had people betting for me, telling me constantly not to give up and giving me a hand, in addition, i always had so much pation for tecnology since i was young. This is my beginning and not the finish line i know i will be a better programer i will keep becoming better with every year that comes by.
 
-I obtained a lot of knowledge while going to SNHU and every single step for a developer is important and through out my course outcomes i learned them and here i will give a summary of my knowledge of each of them.
+On this Eportfolio i will be able to desmostrate my knowledge using C++, MongoDB and assembly.
+
+## **Course Outcomes**
+
+Course Outcome # 1
+
+While doing my course outcome number one i was able to do a code review that allowed me to have a better and deeper understanding on what needs to change or what areas i need to improve.
+
+Course Outcome #2
+
+For this course outcome i was able to design a written communication that was understandable even for people that have not knowledge in programing. Artifact number one  Software Engineering and Design i was able to translate my code from python to C++ so i can show case my skills in C++.
+
+Course Outcome #3
+
+For this outcome i was able to finish many outcomes and implement the best solutions to my program by completing my project in Algorithms and Data Structures i was able to make sure the structure of the project was fluent and did what it was supposed to i added multiple things like ensuring the users have to authenticate and input a password before accesing any type of information as well ensuring that when the wrong password is input, they are unable to acces any other prompts in addition to terminating the program.
+
+Course Outcomes #4 
+
+I was able to demostrate my skills using databases in this course outcome i was able to create a MongoDB database in order to add private information like different passwords and user, esnuring that users informations where kept safe and private from outsiders allowing me to remove the password from the main code.
 
 
 ## **Code Review**
