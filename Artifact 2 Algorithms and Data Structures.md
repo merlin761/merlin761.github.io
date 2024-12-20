@@ -6,8 +6,9 @@ The reason i added this project was because I liked the project since we had to 
 
 for this project i used mongodb compass wich it was easy to use and where i inserted the data into mongodb through a JSON file. I created two files ine as employee and the other one as a customer, where the employees where able to log in with the credential and use the hashed password and login into to the system so they can access the customers and their data.
 
-'''
-#[
+
+```
+//[
   {
     "id": 100,
     "name": "merlin martinez",
@@ -18,4 +19,10 @@ for this project i used mongodb compass wich it was easy to use and where i inse
   }
 ]
 
-  '''
+  ```
+
+after i added this data as a JSON file i decide i wanted to add the encripted password so i went to the mongodb shell and added the follwing code to hash the password.
+```
+db.Employe.insert({"name":"merlin", "password": "YUbe18@"});
+db.Employe.insert({"name":"merlin", "password": fromStringToHash("YUbe18@")});
+```
