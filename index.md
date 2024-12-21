@@ -40,7 +40,7 @@ For this outcome i was able to finish many outcomes and implement the best solut
 
 Course Outcomes #4 
 
-I was able to demostrate my skills using databases in this course outcome i was able to create a MongoDB database in order to add private information like different passwords and user, esnuring that users informations where kept safe and private from outsiders allowing me to remove the password from the main code.
+I was able to demostrate my skills using databases in this course outcome i was able to create a MongoDB database in order to add private information like different passwords and user, ensuring that users informations where kept safe and private from outsiders allowing me to remove the password from the main code.
 
 
 ## **Code Review**
