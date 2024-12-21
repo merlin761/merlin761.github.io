@@ -21,10 +21,28 @@ for this project i used mongodb compass wich it was easy to use and where i inse
 
   ```
 
-after i added this data as a JSON file i decide i wanted to add the encripted password so i went to the mongodb shell and added the follwing code to hash the password.
+after i added this data as a JSON file i decide i wanted to add the encripted password so i added a .js file and added the follwing code to hash the password.
 ```
-db.Employe.insert({"name":"merlin", "password": "YUbe18@"});
-db.Employe.insert({"name":"merlin", "password": fromStringToHash("YUbe18@")});
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var bcrypt = require('bcrypt-nodejs');
+
+var userSchema = new Schema({
+  username: String,
+  password: String
+});
+
+// this will hash the password
+userSchema.methods.generateHash = function(password) {
+  return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+};
+
+// this will check if the password is valid
+userSchema.methods.validPassword = function(password) {
+  return bcrypt.compareSync(password, this.password);
+};
+var User = mongoose.model('user', userSchema);
+module.exports = User;
 ```
 for the customers JSON file i added the following.
 ```
