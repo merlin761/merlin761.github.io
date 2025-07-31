@@ -6,8 +6,11 @@
 
 ## Professional Self-Assessment:
 
-My name is merlin and i graduated back in December of 2024 from SNHU with a degree in Computer Science with a concentration in Software Engineering. while i was in my journey as a Computer Science i had the opportunity to learn from the best professor and i had the oportunity to learn from multiple areas in the Computer Science department like secure coding, software security , software reverse engineering, and more. While i was in school i had the oportunity to explore the different areas of Computer Science however for me the area that i developed a pation for was security, where i learned about how to keep my systems secure and the different ways i can do that. i learned about encription, defense in depth, Soar tools, Siem tools and more. After i finished school  i automatically knew what i wanted to do and i started to look for ways to achive my pation, Creating and keeeping systems secure.
+My name is Merlin Martinez, and I graduated in December 2024 from Southern New Hampshire University with a B.S. in Computer Science, specializing in Software Engineering. During my studies, I explored various areas within computer science, including secure coding, software security, and reverse engineering. These experiences gave me a strong foundation in both development and security principles.
 
+As I progressed, I discovered a passion for cybersecurity—specifically in protecting systems and networks from evolving threats. I developed hands-on experience with encryption, defense-in-depth strategies, SIEM and SOAR tools, and overall system hardening.
+
+Since graduating, I’ve been focused on launching my career as a SOC Analyst or Security Administrator, where I can apply my skills to monitor, detect, and respond to security incidents, while continuously improving system defenses.
 # <u>Table of Content</u>
 
 [Google Cybersecurity Certificate Projects](gcprojects/README.md)
