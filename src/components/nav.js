@@ -1,6 +1,5 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
-
 const NAV_LINKS = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
@@ -11,10 +10,9 @@ const NAV_LINKS = [
   { id: "adventures", label: "Adventures" },
   { id: "contact", label: "Contact" },
 ];
-
 const linkItem = (link, mobile = false) => html`
   <li>
-    <a
+    
       href="#${link.id}"
       class="nav-link underline-link${mobile ? " nav-link-mobile" : ""}"
       data-nav-link="${link.id}"
@@ -23,20 +21,17 @@ const linkItem = (link, mobile = false) => html`
     </a>
   </li>
 `;
-
 const navTemplate = () => html`
   <header class="site-nav glass" id="siteNav">
     <div class="container nav-inner">
-      <a href="#hero" class="nav-logo underline-link" aria-label="Vinay Somawat — back to top">
-        Vinay<span class="gradient-text">.</span>
+      <a href="#hero" class="nav-logo underline-link" aria-label="Merlin Martinez — back to top">
+        Merlin<span class="gradient-text">.</span>
       </a>
-
       <nav class="nav-links" aria-label="Primary">
         <ul>
           ${NAV_LINKS.map((link) => linkItem(link))}
         </ul>
       </nav>
-
       <div class="nav-actions">
         <button
           type="button"
@@ -68,7 +63,6 @@ const navTemplate = () => html`
         </button>
       </div>
     </div>
-
     <div class="nav-mobile-menu" id="navMobileMenu" aria-hidden="true">
       <ul>
         ${NAV_LINKS.map((link) => linkItem(link, true))}
@@ -76,9 +70,7 @@ const navTemplate = () => html`
     </div>
   </header>
 `;
-
 export function mountNav() {
   return mount("nav-root", navTemplate());
 }
-
 export { NAV_LINKS };
