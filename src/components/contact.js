@@ -134,7 +134,7 @@ export function initContactForm() {
         // the visitor's mail client instead of silently pretending a submission succeeded.
         const mailtoSubject = encodeURIComponent(subject);
         const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-        window.location.href = `mailto:vinaysomawat40@gmail.com?subject=${mailtoSubject}&body=${body}`;
+        window.location.href = `mailto:merlin20003@outlook.com?subject=${mailtoSubject}&body=${body}`;
       }
       form.classList.add("is-success");
       status.textContent = "Thanks — your message is on its way.";
