@@ -1,7 +1,7 @@
 export const bio = [
   "IT Specialist & Jr. Security Operations Analyst — six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
   "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
-  "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code.",
+  "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code",
 ];
 
 export const skills = [
