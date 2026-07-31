@@ -1,7 +1,6 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 import { URLs } from "../constants/urls.js";
-
 const repoSkeleton = () => html`
   <div class="repo-card glass" aria-hidden="true">
     <div class="skeleton" style="height:18px;width:60%;margin-bottom:12px"></div>
@@ -9,7 +8,6 @@ const repoSkeleton = () => html`
     <div class="skeleton" style="height:14px;width:75%"></div>
   </div>
 `;
-
 const githubTemplate = () => html`
   <div class="container">
     <div class="section-heading">
@@ -19,40 +17,32 @@ const githubTemplate = () => html`
       </h2>
       <p class="section-subtitle" data-reveal>
         Live stats and pinned repositories, pulled directly from
-        <a class="underline-link" href="${URLs.githubProfile}" target="_blank" rel="noopener noreferrer">github.com/vinaysomawat</a>.
+        <a class="underline-link" href="${URLs.githubProfile}" target="_blank" rel="noopener noreferrer">github.com/merlin761</a>.
       </p>
     </div>
-
     <div class="profile-stats-row" data-reveal>
-      <div class="profile-card-shell glass tilt" data-github-card data-username="vinaysomawat">
-        <div class="skeleton" style="height:80px"></div>
-      </div>
-      <div class="profile-card-shell glass tilt" data-stack-card data-user-id="8461233">
+      <div class="profile-card-shell glass tilt" data-github-card data-username="merlin761">
         <div class="skeleton" style="height:80px"></div>
       </div>
     </div>
-
     <figure class="contribution-graph glass" data-reveal>
       <figcaption class="contribution-graph-label">Contribution activity</figcaption>
       <img
         src="${URLs.gitContributionGraph}"
-        alt="GitHub contribution graph for vinaysomawat"
+        alt="GitHub contribution graph for merlin761"
         loading="lazy"
         width="880"
         height="110"
       />
     </figure>
-
     <div class="repo-grid" id="repos">
       ${[0, 1, 2, 3].map(() => repoSkeleton())}
     </div>
   </div>
 `;
-
 export function mountGithub() {
   return mount("github", githubTemplate());
 }
-
 const repoStats = (item) => html`
   <div class="repo-stats">
     <span class="repo-stat"><span class="repo-lang-dot" aria-hidden="true"></span>${item.language || "Code"}</span>
@@ -60,9 +50,8 @@ const repoStats = (item) => html`
     <span class="repo-stat"><i class="fa-solid fa-code-fork" aria-hidden="true"></i>${item.forks ?? 0}</span>
   </div>
 `;
-
 const repoCard = (item, index) => html`
-  <a
+  
     class="repo-card glass glass-interactive glow-card tilt"
     href="https://github.com/${item.author}/${item.name}"
     target="_blank"
@@ -78,7 +67,6 @@ const repoCard = (item, index) => html`
     ${repoStats(item)}
   </a>
 `;
-
 export function repoListTemplate(items) {
   return html`${items.slice(0, 4).map((item, i) => repoCard(item, i))}`;
 }
