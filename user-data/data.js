@@ -1,218 +1,120 @@
 export const bio = [
-  "Senior Frontend Engineer — 5+ years turning complex product requirements into fast, maintainable Angular and React applications at scale.",
-  "I specialize in TypeScript, RxJS, NgRx, and Nx monorepos. I've led full AngularJS-to-Angular migrations, architected microfrontends with Module Federation, and shipped design systems adopted across multiple product teams.",
-  "When I'm not writing code, I'm crossing mountain passes — including Khardung La at 18,379 ft.",
+  "IT Specialist & Jr. Security Operations Analyst — six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
+  "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
+  "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code.",
 ];
 
 export const skills = [
-  "TypeScript",
-  "Angular",
-  "React",
-  "Signals",
-  "RxJS",
-  "NgRx",
-  "NGXS",
-  "WebSockets",
-  "Nx",
-  "Microfrontends",
-  "Module Federation",
-  "Storybook",
-  "Playwright",
-  "OpenAI",
+  "Python",
+  "Windows",
+  "Linux",
+  "macOS",
+  "Active Directory",
+  "API Integrations",
+  "CI/CD",
+  "SentinelOne",
+  "Splunk",
+  "Wireshark",
+  "Nmap",
+  "MITRE ATT&CK",
+  "OWASP Top 10",
+  "Automated Workflows",
+  "VirtualBox",
 ];
 
 export const projects = [
   {
-    title: "Vinay AI OS",
+    title: "Pace Secure Development Policy",
     description:
-      "A personal AI Operating System — Next.js + Supabase + Claude, with a per-module Telegram bot, that runs one person's tasks, career, finances, health, learning, and coding practice through a single daily Life Score.",
-    tags: ["Next.js", "Supabase", "Claude", "TypeScript", "Telegram Bot"],
-    repo: "https://github.com/vinaysomawat/vinay-ai-os",
-    demo: "https://vinay-ai-os.vercel.app",
-    icon: "fa-solid fa-robot",
+      "A detailed breakdown of C/C++ secure coding standards covering authentication, encryption, and auditing principles, clarifying the hierarchy of policies and guidelines for secure software development.",
+    tags: ["Secure Coding", "C/C++", "DevSecOps", "Policy"],
+    repo: "https://github.com/merlin761/cs405",
+    demo: "",
+    icon: "fa-solid fa-shield-halved",
   },
 ];
 
 export const experience = [
   {
-    title: "SS&C Technologies",
-    duration: "August 2025 – Present",
-    subtitle: "Senior Software Engineer",
+    title: "CyberTrust",
+    duration: "March 2026 – Present",
+    subtitle: "SOC Analyst Intern",
     details: [
-      "Architect scalable Angular applications in an Nx monorepo — modular libraries, lazy loading, OnPush change detection, and optimized state with NgRx.",
-      "Own secure API integration (JWT/Keycloak), route guards/interceptors, and delivery quality via unit and e2e testing in CI/CD pipelines.",
+      "Triage and escalate IT security issues via detailed support tickets — troubleshooting endpoint capacity warnings, resolving user password lockouts, and investigating suspicious login attempts to ensure continuous system availability and prevent unauthorized access.",
+      "Manage and monitor 1,000+ endpoints, escalating verified threats through client ticketing systems and email to enforce security standards and prevent data breaches for Massachusetts municipalities and non-profit organizations.",
+      "Develop Python scripts using SentinelOne's Management API to automate collection and aggregation of threat detection and vulnerability data, cutting Quarterly Business Review prep time by over 80% (from 2 hours to 20 minutes per client).",
+      "Hardened internal tools by replacing plaintext API key storage with an encrypted, OS-native credential vault, and integrated Microsoft Azure 2FA via custom Python code to enforce NIST, CIS, and FISMA standards.",
     ],
-    tags: ["Angular", "Nx", "NgRx", "Keycloak", "Playwright"],
-    icon: "sack-dollar",
+    tags: ["Python", "SentinelOne", "Azure 2FA", "NIST", "CIS", "FISMA"],
+    icon: "shield-halved",
   },
   {
-    title: "Shiprocket Limited",
-    duration: "September 2023 – August 2025",
-    subtitle: "Software Engineer",
+    title: "Per Scholas",
+    duration: "July 2025 – September 2025",
+    subtitle: "Cybersecurity Training Program",
     details: [
-      "Led migration of 30+ high-traffic modules serving 300K+ active sellers from AngularJS to Angular 19 — full legacy analysis, gap resolution, and zero-downtime production rollout.",
-      "Built a ChatGPT-style courier rule engine with OpenAI, automating 20+ ops tasks; added global search with deep linking and keyboard shortcuts, cutting task time by 30%.",
-      "Co-authored the Shiprocket UI Design System (StencilJS + Storybook), reducing UI bugs 35% and halving feature delivery time across teams.",
+      "Configured and secured LAN infrastructure including switch configuration, VLAN segmentation, DHCP/DNS setup, and basic routing to isolate sensitive traffic and reduce the attack surface — gaining hands-on experience with enterprise-grade network segmentation and defense.",
     ],
-    tags: ["TypeScript", "Angular", "StencilJS", "Storybook", "OpenAI"],
-    icon: "truck-fast",
+    tags: ["LAN Security", "VLAN", "DHCP/DNS", "Network Defense"],
+    icon: "network-wired",
   },
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 – July 2023",
-    subtitle: "Software Engineer",
+    title: "SITEL (Express Scripts)",
+    duration: "October 2021 – April 2023",
+    subtitle: "CPA 2",
     details: [
-      "Introduced Module Federation microfrontends, eliminating shared deployment blockers and enabling independent team releases.",
-      "Built multi-region deployment with dynamic API routing and failover for improved global latency.",
-      "Integrated Twilio Video and NGXS WebSockets for 24/7 real-time patient monitoring and synchronous team collaboration.",
+      "Resolved 90+ daily inbound customer support level-2 cases in a high-volume call center regarding pharmacy benefits and user access, achieving a 99% first-call resolution rate and significantly reducing repeat contact.",
+      "Diagnosed technical issues such as account setups and password resets, minimizing tier-two escalations and streamlining the support workflow.",
+      "Documented all interactions within internal ticketing systems, accelerating issue turnaround times and ensuring strict adherence to HIPAA compliance standards.",
     ],
-    tags: ["Angular", "RxJS", "NGXS", "Module Federation", "WebSockets"],
-    icon: "heart-pulse",
-  },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "July 2020 – April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Built Aadhaar-enabled banking modules (eKYC, withdrawal, balance inquiry) for 100K+ retail agents, enabling secure financial access in rural India.",
-      "Designed a QR-code wallet flow that reduced transaction failures and drove merchant adoption.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap"],
-    icon: "qrcode",
+    tags: ["Customer Support", "HIPAA", "Ticketing Systems"],
+    icon: "headset",
   },
 ];
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 – 2020",
-    subtitle: "National Institute of Technology, Warangal",
-    details: [],
+    title: "B.S. in Computer Science, Software Engineering Concentration",
+    duration: "2025",
+    subtitle: "Southern New Hampshire University",
+    details: [
+      "Dean's List, President's List",
+      "Coursework: Development Lifecycle Automation QA, Secure Coding, Software Security, DevSecOps",
+    ],
     tags: [],
     icon: "graduation-cap",
   },
 ];
 
-export const adventures = [
-  {
-    title: "Treks Completed",
-    icon: "fa-solid fa-person-hiking",
-    accent: "green",
-    items: [
-      {
-        name: "Chandrashila Trek",
-        state: "Uttarakhand",
-        height: "13,123 ft",
-        duration: "3 Days",
-        level: "Moderate",
-      },
-      {
-        name: "Kedarkantha Trek",
-        state: "Uttarakhand",
-        height: "12,500 ft",
-        duration: "6 Days",
-        level: "Moderate",
-      },
-      {
-        name: "Kheerganga Trek",
-        state: "Himachal Pradesh",
-        height: "9,711 ft",
-        duration: "2 Days",
-        level: "Moderate",
-      },
-      {
-        name: "Jalori Pass Trek",
-        state: "Himachal Pradesh",
-        height: "10,800 ft",
-        duration: "1 Day",
-        level: "Easy",
-      },
-      {
-        name: "Triund Trek",
-        state: "Himachal Pradesh",
-        height: "9,350 ft",
-        duration: "2 Days",
-        level: "Easy",
-      },
-      {
-        name: "Shri Mata Vaishno Devi Trek",
-        state: "Jammu & Kashmir",
-        height: "5,200 ft",
-        duration: "2 Days",
-        level: "Easy",
-      },
-    ],
-  },
-  {
-    title: "Mountain Passes Explored",
-    icon: "fa-solid fa-road",
-    accent: "gold",
-    items: [
-      {
-        name: "Khardung La Pass",
-        state: "Ladakh",
-        height: "18,379 ft",
-      },
-      {
-        name: "Chang La Pass",
-        state: "Ladakh",
-        height: "17,590 ft",
-      },
-      {
-        name: "Tanglang La Pass",
-        state: "Ladakh",
-        height: "17,480 ft",
-      },
-      {
-        name: "Lachung La Pass",
-        state: "Ladakh",
-        height: "16,616 ft",
-      },
-      {
-        name: "Baralacha La Pass",
-        state: "Himachal Pradesh",
-        height: "16,040 ft",
-      },
-      {
-        name: "Nakeela Pass",
-        state: "Himachal Pradesh",
-        height: "15,547 ft",
-      },
-      {
-        name: "ZojiLa Pass",
-        state: "Jammu & Kashmir",
-        height: "11,575 ft",
-      },
-    ],
-  },
+export const certifications = [
+  "CompTIA A+",
+  "CompTIA Network+",
+  "CompTIA Security+",
+  "CompTIA CySA+",
+  "Splunk",
 ];
 
 export const contact = [
   {
-    label: "vinaysomawat40@gmail.com",
-    link: "mailto:vinaysomawat40@gmail.com",
+    label: "merlin20003@outlook.com",
+    link: "mailto:merlin20003@outlook.com",
     icon: "fa-solid fa-envelope",
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/vinaysomawat/",
+    link: "https://www.linkedin.com/in/merlinmtech/",
     icon: "fa-brands fa-linkedin",
   },
   {
     label: "GitHub",
-    link: "https://github.com/vinaysomawat",
+    link: "https://github.com/merlin761",
     icon: "fa-brands fa-github",
-  },
-  {
-    label: "Medium",
-    link: "https://vinaysomawat.medium.com/",
-    icon: "fa-brands fa-medium",
   },
 ];
 
 export const footer = [
   {
     label: "copyright-text",
-    data: ["Vinay Somawat · Senior Frontend Engineer"],
+    data: ["Merlin Martinez · IT Specialist & Jr. Security Operations Analyst"],
   },
 ];
