@@ -6,13 +6,11 @@ const NAV_LINKS = [
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
   { id: "github", label: "GitHub" },
-  { id: "blog", label: "Blog" },
-  { id: "adventures", label: "Adventures" },
   { id: "contact", label: "Contact" },
 ];
 const linkItem = (link, mobile = false) => html`
   <li>
-    
+    <a
       href="#${link.id}"
       class="nav-link underline-link${mobile ? " nav-link-mobile" : ""}"
       data-nav-link="${link.id}"
