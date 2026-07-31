@@ -51,7 +51,7 @@ const repoStats = (item) => html`
   </div>
 `;
 const repoCard = (item, index) => html`
-  
+  <a
     class="repo-card glass glass-interactive glow-card tilt"
     href="https://github.com/${item.author}/${item.name}"
     target="_blank"
