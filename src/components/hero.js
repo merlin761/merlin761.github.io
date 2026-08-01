@@ -37,11 +37,9 @@ const heroTemplate = () => html`
         reliable defenses — with Python, SentinelOne, and Splunk at the core.
       </p>
       <div class="hero-cta-row" data-reveal>
-        
+        <a
           class="btn btn-primary magnetic ripple"
           href="${RESUME_URL}"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
           Resume
