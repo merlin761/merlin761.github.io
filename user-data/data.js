@@ -1,6 +1,6 @@
 export const bio = [
   "IT Specialist & Jr. Security Operations Analyst with six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
-  "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
+  "I specialize in building automated Python based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
   "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code.",
   "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
 ];
@@ -54,7 +54,7 @@ export const experience = [
     duration: "July 2025 – September 2025",
     subtitle: "Cybersecurity Training Program",
     details: [
-      "Configured and secured LAN infrastructure including switch configuration, VLAN segmentation, DHCP/DNS setup, and basic routing to isolate sensitive traffic and reduce the attack surface — gaining hands-on experience with enterprise-grade network segmentation and defense.",
+      "Configured and secured LAN infrastructure including switch configuration, VLAN segmentation, DHCP/DNS setup, and basic routing to isolate sensitive traffic and reduce the attack surface gaining hands-on experience with enterprise grade network segmentation and defense.",
     ],
     tags: ["LAN Security", "VLAN", "DHCP/DNS", "Network Defense"],
     icon: "network-wired",
@@ -64,8 +64,8 @@ export const experience = [
     duration: "October 2021 – April 2023",
     subtitle: "CPA 2",
     details: [
-      "Resolved 90+ daily inbound customer support level-2 cases in a high-volume call center regarding pharmacy benefits and user access, achieving a 99% first-call resolution rate and significantly reducing repeat contact.",
-      "Diagnosed technical issues such as account setups and password resets, minimizing tier-two escalations and streamlining the support workflow.",
+      "Resolved 90+ daily inbound customer support level-2 cases in a high volume call center regarding pharmacy benefits and user access, achieving a 99% first call resolution rate and significantly reducing repeat contact.",
+      "Diagnosed technical issues such as account setups and password resets, minimizing tier two escalations and streamlining the support workflow.",
       "Documented all interactions within internal ticketing systems, accelerating issue turnaround times and ensuring strict adherence to HIPAA compliance standards.",
     ],
     tags: ["Customer Support", "HIPAA", "Ticketing Systems"],
