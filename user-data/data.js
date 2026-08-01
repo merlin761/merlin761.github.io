@@ -2,6 +2,7 @@ export const bio = [
   "IT Specialist & Jr. Security Operations Analyst — six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
   "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
   "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code.",
+  "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
 ];
 
 export const skills = [
@@ -94,12 +95,10 @@ export const certifications = [
   "Splunk",
 ];
 
-export const adventures = [];
-
 export const contact = [
   {
-    label: "merlin20003@outlook.com",
-    link: "mailto:merlin20003@outlook.com",
+    label: "merlina000@outlook.com",
+    link: "mailto:merlina000@outlook.com",
     icon: "fa-solid fa-envelope",
   },
   {
