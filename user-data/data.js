@@ -1,5 +1,5 @@
 export const bio = [
-  "IT Specialist & Jr. Security Operations Analyst — six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
+  "IT Specialist & Jr. Security Operations Analyst with six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
   "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
   "Bilingual (English & Spanish), CompTIA A+/Network+/Security+/CySA+ certified, and always looking to harden systems and streamline security operations through code.",
   "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
@@ -41,7 +41,7 @@ export const experience = [
     duration: "March 2026 – Present",
     subtitle: "SOC Analyst Intern",
     details: [
-      "Triage and escalate IT security issues via detailed support tickets — troubleshooting endpoint capacity warnings, resolving user password lockouts, and investigating suspicious login attempts to ensure continuous system availability and prevent unauthorized access.",
+      "Triage and escalate IT security issues via detailed support tickets  troubleshooting endpoint capacity warnings, resolving user password lockouts, and investigating suspicious login attempts to ensure continuous system availability and prevent unauthorized access.",
       "Manage and monitor 1,000+ endpoints, escalating verified threats through client ticketing systems and email to enforce security standards and prevent data breaches for Massachusetts municipalities and non-profit organizations.",
       "Develop Python scripts using SentinelOne's Management API to automate collection and aggregation of threat detection and vulnerability data, cutting Quarterly Business Review prep time by over 80% (from 2 hours to 20 minutes per client).",
       "Hardened internal tools by replacing plaintext API key storage with an encrypted, OS-native credential vault, and integrated Microsoft Azure 2FA via custom Python code to enforce NIST, CIS, and FISMA standards.",
