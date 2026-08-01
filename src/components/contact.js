@@ -24,7 +24,7 @@ const contactTemplate = () => html`
     <div class="contact-copy">
       <p class="section-eyebrow" data-reveal>Contact</p>
       <h2 class="section-title" id="contact-title" data-reveal>
-        Let's build something <span class="gradient-text">worth shipping</span>.
+        Let's build something <span class="gradient-text">secure</span>.
       </h2>
       <p class="section-subtitle" data-reveal>
         Pick the channel that fits best — tech discussions, collaborations,
