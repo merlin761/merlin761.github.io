@@ -11,7 +11,6 @@ import { mountSkills } from "./components/skills.js";
 import { mountProjects } from "./components/projects.js";
 import { mountGithub, repoListTemplate } from "./components/github.js";
 import { mountContact, initContactForm } from "./components/contact.js";
-import { mountCoffee } from "./components/coffee.js";
 import { mountFooter } from "./components/footer.js";
 import { initNavScroll } from "./services/nav-scroll.js";
 import { initTheme } from "./services/theme.js";
@@ -45,7 +44,6 @@ function mountStaticSections() {
   mountProjects();
   mountGithub();
   mountContact();
-  mountCoffee();
   mountFooter();
 }
 function initServices() {
