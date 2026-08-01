@@ -32,9 +32,9 @@ const heroTemplate = () => html`
       </h1>
       <p class="hero-role gradient-text-animated" data-reveal>IT Specialist & Jr. Security Operations Analyst</p>
       <p class="hero-description" data-reveal>
-        I build automated Python-based workflows for security operations, harden
+        I build automated Python based workflows for security operations, harden
         systems against threats, and turn manual, repetitive tasks into fast,
-        reliable defenses — with Python, SentinelOne, and Splunk at the core.
+        reliable defenses with Python, SentinelOne, and Splunk at the core.
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
