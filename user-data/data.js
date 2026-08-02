@@ -5,6 +5,7 @@ export const bio = [
   "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
 ];
 
+
 export const skills = [
   "Python",
   "DevSecOps ",
