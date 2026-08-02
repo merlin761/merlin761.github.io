@@ -5,27 +5,6 @@ export const bio = [
   "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
 ];
 
-
-export const skills = [
-  "Python",
-  "DevSecOps ",
-  "Windows",
-  "Linux",
-  "macOS",
-  "Active Directory",
-  "API Integrations",
-  "CI/CD",
-  "SentinelOne",
-  "Wireshark",
-  "MITRE ATT&CK",
-  "OWASP Top 10",
-  "Automated Workflows",
-  "VirtualBox",
-  "Router & Switch Configuration",
-  "TCP/IP & Subnetting",
-  "DHCP & DNS",
-];
-
 export const projects = [
   {
     title: "Artemis Financial Secure Application",
@@ -81,6 +60,26 @@ export const projects = [
     demo: "",
     icon: "fa-solid fa-network-wired", 
   }
+];
+
+export const skills = [
+  "Python",
+  "DevSecOps ",
+  "Windows",
+  "Linux",
+  "macOS",
+  "Active Directory",
+  "API Integrations",
+  "CI/CD",
+  "SentinelOne",
+  "Wireshark",
+  "MITRE ATT&CK",
+  "OWASP Top 10",
+  "Automated Workflows",
+  "VirtualBox",
+  "Router & Switch Configuration",
+  "TCP/IP & Subnetting",
+  "DHCP & DNS",
 ];
 
 export const experience = [
