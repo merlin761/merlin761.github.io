@@ -133,11 +133,11 @@
 .btn-primary {
   background: var(--gradient-primary);
   color: #fff;
-  box-shadow: 0 8px 24px -8px rgba(79, 140, 255, 0.55);
+  box-shadow: 0 8px 24px -8px rgba(255, 79, 163, 0.55);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 12px 32px -6px rgba(79, 140, 255, 0.7);
+  box-shadow: 0 12px 32px -6px rgba(255, 79, 163, 0.7);
 }
 
 .btn-secondary {
@@ -290,8 +290,8 @@
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(79, 140, 255, 0.16),
-    rgba(123, 97, 255, 0.08) 45%,
+    rgba(255, 79, 163, 0.16),
+    rgba(255, 143, 216, 0.08) 45%,
     transparent 70%
   );
   pointer-events: none;
@@ -303,8 +303,8 @@
 .cursor-glow.is-active {
   background: radial-gradient(
     circle,
-    rgba(0, 212, 255, 0.22),
-    rgba(79, 140, 255, 0.1) 45%,
+    rgba(255, 111, 200, 0.22),
+    rgba(255, 79, 163, 0.1) 45%,
     transparent 70%
   );
 }
