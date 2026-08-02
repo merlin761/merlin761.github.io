@@ -7,7 +7,7 @@ const FLOATING_BADGES = [
   { label: "DevSecOps", icon: "fa-solid fa-magnifying-glass-chart", pos: "badge-3" },
   { label: "Security+", icon: "fa-solid fa-network-wired", pos: "badge-4" },
   { label: "Network+", icon: "fa-solid fa-certificate", pos: "badge-5" },
-  { label: "CySA+", icon: "fa-solid fa-certificate", pos: "badge-6" },
+  { label: "CySA+", icon: "fa-solid fa-certificate", pos: "badge-7" },
 ];
 const badgeTemplate = (badge) => html`
   <div class="hero-badge glass ${badge.pos}" aria-hidden="true">
