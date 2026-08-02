@@ -21,6 +21,9 @@ export const skills = [
   "OWASP Top 10",
   "Automated Workflows",
   "VirtualBox",
+  "Router & Switch Configuration",
+  "TCP/IP & Subnetting",
+  "DHCP & DNS Administration",
 ];
 
 export const projects = [
@@ -133,10 +136,10 @@ export const education = [
 ];
 
 export const certifications = [
-  "CompTIA A+",
-  "CompTIA Network+",
   "CompTIA Security+",
-  "CompTIA CySA+",
+  "CompTIA Network+",
+  "CompTIA CySA",
+  "CompTIA A+",
   "Splunk",
 ];
 
