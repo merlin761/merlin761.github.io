@@ -4,9 +4,10 @@ import { RESUME_URL } from "../constants/urls.js";
 const FLOATING_BADGES = [
   { label: "Python", icon: "fa-brands fa-python", pos: "badge-1" },
   { label: "SentinelOne", icon: "fa-solid fa-shield-halved", pos: "badge-2" },
-  { label: "Splunk", icon: "fa-solid fa-magnifying-glass-chart", pos: "badge-3" },
-  { label: "Wireshark", icon: "fa-solid fa-network-wired", pos: "badge-4" },
-  { label: "Security+", icon: "fa-solid fa-certificate", pos: "badge-5" },
+  { label: "DevSecOps", icon: "fa-solid fa-magnifying-glass-chart", pos: "badge-3" },
+  { label: "Security+", icon: "fa-solid fa-network-wired", pos: "badge-4" },
+  { label: "Network+", icon: "fa-solid fa-certificate", pos: "badge-5" },
+  { label: "CYSA+", icon: "fa-solid fa-certificate", pos: "badge-6" },
 ];
 const badgeTemplate = (badge) => html`
   <div class="hero-badge glass ${badge.pos}" aria-hidden="true">
