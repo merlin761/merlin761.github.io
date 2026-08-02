@@ -34,7 +34,7 @@ export const projects = [
     icon: "fa-solid fa-list-check",
   },
   {
-    title: "CS 465 Secured MEAN Stack Application",
+    title: "Secured MEAN Stack Application",
     description:
       "Built a full-stack Single Page Application (SPA) using MongoDB, Express, Angular, and Node.js, featuring RESTful APIs secured with JSON Web Tokens (JWT). Ensured robust stateless authentication and protected backend endpoints against unauthorized data manipulation.",
     tags: ["MEAN Stack", "REST API", "JWT Security", "NoSQL"],
