@@ -7,6 +7,7 @@ export const bio = [
 
 export const skills = [
   "Python",
+  "DevSecOps ",
   "Windows",
   "Linux",
   "macOS",
@@ -14,9 +15,7 @@ export const skills = [
   "API Integrations",
   "CI/CD",
   "SentinelOne",
-  "Splunk",
   "Wireshark",
-  "Nmap",
   "MITRE ATT&CK",
   "OWASP Top 10",
   "Automated Workflows",
@@ -25,14 +24,41 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Pace Secure Development Policy",
+    title: "Artemis Financial Secure Application",
     description:
-      "A detailed breakdown of C/C++ secure coding standards covering authentication, encryption, and auditing principles, clarifying the hierarchy of policies and guidelines for secure software development.",
-    tags: ["Secure Coding", "C/C++", "DevSecOps", "Policy"],
+      "Hardened a financial web application by configuring TLS/SSL HTTPS encryption, refactoring insecure key storage, and executing OWASP dependency scans. Resulted in complete remediation of source code vulnerabilities and full alignment with financial data protection standards.",
+    tags: ["Application Security", "TLS/SSL", "OWASP", "Vulnerability Remediation"],
+    repo: "https://github.com/merlin761/artemis-financial",
+    demo: "",
+    icon: "fa-solid fa-lock",
+  },
+  {
+    title: "Enterprise Secure Development Framework",
+    description:
+      "Engineered an enterprise secure software development framework incorporating DevSecOps principles, Zero Trust architecture, and AAA controls. Successfully reduced attack surfaces during the design phase while aligning organizational security policy with NIST and ISO 27001 compliance standards.",
+    tags: ["DevSecOps", "Zero Trust", "NIST / ISO 27001", "Risk Mitigation"],
     repo: "https://github.com/merlin761/cs405",
     demo: "",
-    icon: "fa-solid fa-shield-halved",
+    icon: "fa-solid fa-file-shield",
   },
+  {
+    title: "Automated Security Testing & QA",
+    description:
+      "Developed automated unit testing suites and rigorous input validation protocols to catch edge-case errors and unvalidated inputs early in the SDLC. Achieved over 90% code coverage, eliminating injection threats and logical flaws before production deployment.",
+    tags: ["Unit Testing", "QA", "Input Validation", "DevSecOps"],
+    repo: "https://github.com/merlin761/cs320",
+    demo: "",
+    icon: "fa-solid fa-list-check",
+  },
+  {
+    title: "CS 465 Secured MEAN Stack Application",
+    description:
+      "Built a full-stack Single Page Application (SPA) using MongoDB, Express, Angular, and Node.js, featuring RESTful APIs secured with JSON Web Tokens (JWT). Ensured robust stateless authentication and protected backend endpoints against unauthorized data manipulation.",
+    tags: ["MEAN Stack", "REST API", "JWT Security", "NoSQL"],
+    repo: "https://github.com/merlin761/cs465",
+    demo: "",
+    icon: "fa-solid fa-plane-departure",
+  }
 ];
 
 export const experience = [
