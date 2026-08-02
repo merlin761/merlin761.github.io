@@ -58,6 +58,24 @@ export const projects = [
     repo: "https://github.com/merlin761/cs465",
     demo: "",
     icon: "fa-solid fa-plane-departure",
+  },
+  {
+    title: "DriverPass System Architecture & RBAC",
+    description:
+      "Architected a multi-tier educational platform using UML diagrams to map out business requirements and complex system interactions. Enforced the principle of least privilege by designing a Role-Based Access Control (RBAC) model to securely segregate administrative, instructor, and student functionalities.",
+    tags: ["System Design", "UML", "RBAC", "Architecture"],
+    repo: "https://github.com/merlin761/cs255", 
+    demo: "",
+    icon: "fa-solid fa-sitemap", 
+  },
+  {
+    title: "Splunk SIEM Network Traffic Analysis",
+    description:
+      "Configured a Splunk Security Information and Event Management (SIEM) environment to ingest, parse, and monitor network logs and PCAP data. Engineered custom alert dashboards to rapidly detect anomalous behavior and brute-force attempts, optimizing incident response investigation times.",
+    tags: ["Splunk", "SIEM", "Incident Response", "Network Security"],
+    repo: "https://github.com/merlin761/splunk-siem-lab", 
+    demo: "",
+    icon: "fa-solid fa-network-wired", 
   }
 ];
 
