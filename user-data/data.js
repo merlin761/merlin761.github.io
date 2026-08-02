@@ -23,7 +23,7 @@ export const skills = [
   "VirtualBox",
   "Router & Switch Configuration",
   "TCP/IP & Subnetting",
-  "DHCP & DNS Administration",
+  "DHCP & DNS",
 ];
 
 export const projects = [
