@@ -5,20 +5,22 @@ const FLOATING_BADGES = [
   { label: "Python", icon: "fa-brands fa-python" },
   { label: "SentinelOne", icon: "fa-solid fa-shield-halved" },
   { label: "DevSecOps", icon: "fa-solid fa-infinity" },
-  { label: "Security+", icon: "fa-solid fa-certificate" },
+  { label: "ity+", icon: "fa-solid fa-certificate" },
   { label: "Network+", icon: "fa-solid fa-certificate" },
   { label: "CySA+", icon: "fa-solid fa-certificate" },
 ];
 const badgeTemplate = (badge, index, total) => {
   const angle = (360 / total) * index - 90;
   return html`
-    <div
-      class="hero-badge glass"
-      style="--angle: ${angle}deg; animation-delay: -${index * 1.1}s"
-      aria-hidden="true"
-    >
-      <i class="${badge.icon}" aria-hidden="true"></i>
-      <span>${badge.label}</span>
+    <div class="hero-badge-orbit" style="--angle: ${angle}deg">
+      <div
+        class="hero-badge glass"
+        style="animation-delay: -${index * 1.1}s"
+        aria-hidden="true"
+      >
+        <i class="${badge.icon}" aria-hidden="true"></i>
+        <span>${badge.label}</span>
+      </div>
     </div>
   `;
 };
@@ -33,14 +35,14 @@ const heroTemplate = () => html`
     <div class="hero-copy">
       <p class="hero-eyebrow" data-reveal>
         <span class="hero-status-dot"></span>
-        Open to security & automation roles
+        Open to Cybersecurity, IT Specialist & DevSecops roles
       </p>
       <h1 class="hero-title" data-reveal>
         Merlin Martinez
       </h1>
-      <p class="hero-role gradient-text-animated" data-reveal>IT Specialist & Jr. Security Operations Analyst</p>
+      <p class="hero-role gradient-text-animated" data-reveal>IT Specialist & Jr. Security Operations Engineer</p>
       <p class="hero-description" data-reveal>
-        I build automated Python-based workflows for security operations, harden
+        I build automated Python based workflows for Security operations, harden
         systems against threats, and turn manual, repetitive tasks into fast,
         reliable defenses — with Python, SentinelOne, and Splunk at the core.
       </p>
