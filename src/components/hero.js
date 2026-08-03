@@ -5,9 +5,11 @@ const FLOATING_BADGES = [
   { label: "Python", icon: "fa-brands fa-python" },
   { label: "SentinelOne", icon: "fa-solid fa-shield-halved" },
   { label: "DevSecOps", icon: "fa-solid fa-infinity" },
-  { label: "ity+", icon: "fa-solid fa-certificate" },
+  { label: "Defense in Depth", icon: "fa-solid fa-layer-group" },
+  { label: "DHCP", icon: "fa-solid fa-network-wired" },
+  { label: "CI/CD", icon: "fa-solid fa-arrows-rotate" },
+  { label: "Security+", icon: "fa-solid fa-certificate" },
   { label: "Network+", icon: "fa-solid fa-certificate" },
-  { label: "CySA+", icon: "fa-solid fa-certificate" },
 ];
 const badgeTemplate = (badge, index, total) => {
   const angle = (360 / total) * index - 90;
@@ -35,14 +37,14 @@ const heroTemplate = () => html`
     <div class="hero-copy">
       <p class="hero-eyebrow" data-reveal>
         <span class="hero-status-dot"></span>
-        Open to Cybersecurity, IT Specialist & DevSecops roles
+        Open to security & automation roles
       </p>
       <h1 class="hero-title" data-reveal>
         Merlin Martinez
       </h1>
-      <p class="hero-role gradient-text-animated" data-reveal>IT Specialist & Jr. Security Operations Engineer</p>
+      <p class="hero-role gradient-text-animated" data-reveal>IT Specialist & Jr. Security Operations Analyst</p>
       <p class="hero-description" data-reveal>
-        I build automated Python based workflows for Security operations, harden
+        I build automated Python-based workflows for security operations, harden
         systems against threats, and turn manual, repetitive tasks into fast,
         reliable defenses — with Python, SentinelOne, and Splunk at the core.
       </p>
