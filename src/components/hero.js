@@ -46,7 +46,7 @@ const heroTemplate = () => html`
       <p class="hero-description" data-reveal>
         I build automated Python-based workflows for security operations, harden
         systems against threats, and turn manual, repetitive tasks into fast,
-        reliable defenses — with Python, SentinelOne, and Splunk at the core.
+        reliable defenses with Python, SentinelOne, and Splunk at the core.
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
