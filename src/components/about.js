@@ -29,7 +29,7 @@ const aboutTemplate = () => html`
     <div class="about-copy">
       <p class="section-eyebrow" data-reveal>About</p>
       <h2 class="section-title" id="about-title" data-reveal>
-        Security operations that hold up under real pressure.
+        Defense in depth. Every layer, start to finish. Continuously patched, continuously secured.
       </h2>
       <div class="about-bio" data-reveal>
         ${bio.map((paragraph) => html`<p>${paragraph}</p>`)}
