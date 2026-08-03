@@ -2,19 +2,26 @@ import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 import { RESUME_URL } from "../constants/urls.js";
 const FLOATING_BADGES = [
-  { label: "Python", icon: "fa-brands fa-python", pos: "badge-1" },
-  { label: "SentinelOne", icon: "fa-solid fa-shield-halved", pos: "badge-2" },
-  { label: "DevSecOps", icon: "fa-solid fa-infinity", pos: "badge-3" },
-  { label: "Security+", icon: "fa-solid fa-certificate", pos: "badge-4" },
-  { label: "Network+", icon: "fa-solid fa-certificate", pos: "badge-5" },
-  { label: "CySA+", icon: "fa-solid fa-certificate", pos: "badge-6" },
+  { label: "Python", icon: "fa-brands fa-python" },
+  { label: "SentinelOne", icon: "fa-solid fa-shield-halved" },
+  { label: "DevSecOps", icon: "fa-solid fa-infinity" },
+  { label: "Security+", icon: "fa-solid fa-certificate" },
+  { label: "Network+", icon: "fa-solid fa-certificate" },
+  { label: "CySA+", icon: "fa-solid fa-certificate" },
 ];
-const badgeTemplate = (badge) => html`
-  <div class="hero-badge glass ${badge.pos}" aria-hidden="true">
-    <i class="${badge.icon}" aria-hidden="true"></i>
-    <span>${badge.label}</span>
-  </div>
-`;
+const badgeTemplate = (badge, index, total) => {
+  const angle = (360 / total) * index - 90;
+  return html`
+    <div
+      class="hero-badge glass"
+      style="--angle: ${angle}deg; animation-delay: -${index * 1.1}s"
+      aria-hidden="true"
+    >
+      <i class="${badge.icon}" aria-hidden="true"></i>
+      <span>${badge.label}</span>
+    </div>
+  `;
+};
 const heroTemplate = () => html`
   <div class="hero-bg" aria-hidden="true">
     <div class="hero-mesh"></div>
@@ -35,7 +42,7 @@ const heroTemplate = () => html`
       <p class="hero-description" data-reveal>
         I build automated Python-based workflows for security operations, harden
         systems against threats, and turn manual, repetitive tasks into fast,
-        reliable defenses with Python, SentinelOne, and Splunk at the core.
+        reliable defenses — with Python, SentinelOne, and Splunk at the core.
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
@@ -60,7 +67,7 @@ const heroTemplate = () => html`
         <div class="hero-orbit-core glass">
           <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
         </div>
-        ${FLOATING_BADGES.map((badge) => badgeTemplate(badge))}
+        ${FLOATING_BADGES.map((badge, i) => badgeTemplate(badge, i, FLOATING_BADGES.length))}
       </div>
     </div>
   </div>
