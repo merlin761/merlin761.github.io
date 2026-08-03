@@ -2,9 +2,9 @@ import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 const NAV_LINKS = [
   { id: "about", label: "About" },
+  { id: "projects", label: "Projects" },
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
-  { id: "projects", label: "Projects" },
   { id: "github", label: "GitHub" },
   { id: "contact", label: "Contact" },
 ];
