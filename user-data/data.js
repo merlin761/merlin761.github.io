@@ -47,7 +47,7 @@ export const projects = [
   {
     title: "Trip Planner — Full-Stack Web App",
     description:
-      "Built a full-stack Trip Planner application with secure coding practices at every layer — TLS/HTTPS encryption in transit, input validation, sanitized error handling, and environment-variable-protected database credentials — across an Angular SPA, Node.js/Express API, and MongoDB.",
+      "Built a full-stack Trip Planner application with secure coding practices at every layer LS/HTTPS encryption in transit, input validation, sanitized error handling, and environment-variable-protected database credentials across an Angular SPA, Node.js/Express API, and MongoDB.",
     tags: [
       "Secure Coding", 
       "TLS/HTTPS", 
@@ -67,7 +67,7 @@ export const projects = [
   {
     title: "AI Maze Solver — Q-Learning Agent",
     description:
-      "Implemented a Q-learning algorithm to train an AI agent through repeated exploration and exploitation cycles, applying the same responsible-design mindset used in security work — safe, predictable behavior over unchecked trial and error.",
+      "Implemented a Q-learning algorithm to train an AI agent through repeated exploration and exploitation cycles, applying the same responsible design mindset used in security work safe, predictable behavior over unchecked trial and error.",
     tags: ["Python", "AI", "Reinforcement Learning", "Responsible Design"],
     repo: "https://github.com/merlin761/Current-Emerging-Trends-in-CS",
     demo: "",
@@ -76,7 +76,7 @@ export const projects = [
   {
     title: "Data Structures & Algorithm Design",
     description:
-      "Analyzed and designed core data structures and algorithms using pseudocode-first planning — the same efficiency-and-performance mindset that keeps systems fast, stable, and resistant to resource-exhaustion attacks.",
+      "Analyzed and designed core data structures and algorithms using pseudocode first planning the same efficiency and performance mindset that keeps systems fast, stable, and resistant to resource-exhaustion attacks.",
     tags: ["Data Structures", "Algorithms", "Performance", "Analysis"],
     repo: "https://github.com/merlin761/DSA-Analysis-Design",
     demo: "",
@@ -85,7 +85,7 @@ export const projects = [
   {
     title: "Software QA & Test Automation",
     description:
-      "Designed and executed unit and requirements-based tests with 90%+ coverage, specifically validating against incorrect and unexpected inputs — treating every test as a chance to catch a vulnerability before it shipped.",
+      "Designed and executed unit and requirements-based tests with 90%+ coverage, specifically validating against incorrect and unexpected inputs treating every test as a chance to catch a vulnerability before it shipped.",
     tags: [
       "Unit Testing", 
       "Input Validation", 
@@ -102,7 +102,7 @@ export const projects = [
   {
     title: "Zero Trust & DevSecOps Security Policy",
     description:
-      "Wrote a cybersecurity policy applying DevSecOps and Zero Trust principles — covering risk and cost analysis, AAA authentication, and encryption at rest, in transit, and in use — aligned with NIST, ISO 27001, and CIS frameworks.",
+      "Wrote a cybersecurity policy applying DevSecOps and Zero Trust principles covering risk and cost analysis, AAA authentication, and encryption at rest, in transit, and in use aligned with NIST, ISO 27001, and CIS frameworks.",
     tags: [
       "DevSecOps", 
       "Zero Trust", 
@@ -126,7 +126,7 @@ export const experience = [
     duration: "March 2026 – Present",
     subtitle: "SOC Analyst Intern",
     details: [
-      "Triage and escalate IT security issues via detailed support tickets — troubleshooting endpoint capacity warnings, resolving user password lockouts, and investigating suspicious login attempts to ensure continuous system availability and prevent unauthorized access.",
+      "Triage and escalate IT security issues via detailed support tickets troubleshooting endpoint capacity warnings, resolving user password lockouts, and investigating suspicious login attempts to ensure continuous system availability and prevent unauthorized access.",
       "Manage and monitor 1,000+ endpoints, escalating verified threats through client ticketing systems and email to enforce security standards and prevent data breaches for Massachusetts municipalities and non-profit organizations.",
       "Develop Python scripts using SentinelOne's Management API to automate collection and aggregation of threat detection and vulnerability data, cutting Quarterly Business Review prep time by over 80% (from 2 hours to 20 minutes per client).",
       "Hardened internal tools by replacing plaintext API key storage with an encrypted, OS-native credential vault, and integrated Microsoft Azure 2FA via custom Python code to enforce NIST, CIS, and FISMA standards.",
@@ -139,7 +139,7 @@ export const experience = [
     duration: "July 2025 – September 2025",
     subtitle: "Cybersecurity Training Program",
     details: [
-      "Configured and secured LAN infrastructure including switch configuration, VLAN segmentation, DHCP/DNS setup, and basic routing to isolate sensitive traffic and reduce the attack surface — gaining hands-on experience with enterprise-grade network segmentation and defense.",
+      "Configured and secured LAN infrastructure including switch configuration, VLAN segmentation, DHCP/DNS setup, and basic routing to isolate sensitive traffic and reduce the attack surface gaining hands-on experience with enterprise-grade network segmentation and defense.",
     ],
     tags: ["LAN Security", "VLAN", "DHCP/DNS", "Network Defense"],
     icon: "network-wired",
@@ -149,8 +149,8 @@ export const experience = [
     duration: "October 2021 – April 2023",
     subtitle: "CPA 2",
     details: [
-      "Resolved 90+ daily inbound customer support level-2 cases in a high-volume call center regarding pharmacy benefits and user access, achieving a 99% first-call resolution rate and significantly reducing repeat contact.",
-      "Diagnosed technical issues such as account setups and password resets, minimizing tier-two escalations and streamlining the support workflow.",
+      "Resolved 90+ daily inbound customer support level-2 cases in a high-volume call center regarding pharmacy benefits and user access, achieving a 99% first call resolution rate and significantly reducing repeat contact.",
+      "Diagnosed technical issues such as account setups and password resets, minimizing tier two escalations and streamlining the support workflow.",
       "Documented all interactions within internal ticketing systems, accelerating issue turnaround times and ensuring strict adherence to HIPAA compliance standards.",
     ],
     tags: ["Customer Support", "HIPAA", "Ticketing Systems"],
@@ -173,9 +173,10 @@ export const education = [
 ];
 
 export const certifications = [
-  "CompTIA A+",
-  "CompTIA Network+",
   "CompTIA Security+",
+  "CompTIA Network+",
+  "CompTIA CySA+",
+  "CompTIA A+",
   "Splunk",
 ];
 
@@ -200,6 +201,6 @@ export const contact = [
 export const footer = [
   {
     label: "copyright-text",
-    data: ["Merlin Martinez · IT Specialist & Jr. Security Operations Analyst"],
+    data: ["Merlin Martinez · IT Specialist & Jr. Security Operations Engineer"],
   },
 ];
