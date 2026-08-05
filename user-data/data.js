@@ -35,6 +35,60 @@ export const projects = [
     demo: "",
     icon: "fa-solid fa-shield-halved",
   },
+  {
+    title: "Full Stack Development",
+    description:
+      "Coursework covering end-to-end web application development, from front-end interfaces to back-end logic and data handling.",
+    tags: ["Full Stack", "Web Development", "Front-End", "Back-End"],
+    repo: "https://github.com/merlin761/Full_Stack_Development",
+    demo: "",
+    icon: "fa-solid fa-layer-group",
+  },
+  {
+    title: "Current & Emerging Trends in Computer Science",
+    description:
+      "Research and analysis exploring current and emerging trends across the computer science field, documented in Jupyter Notebooks.",
+    tags: ["Research", "Computer Science", "Jupyter Notebook"],
+    repo: "https://github.com/merlin761/Current-Emerging-Trends-in-CS",
+    demo: "",
+    icon: "fa-solid fa-chart-line",
+  },
+  {
+    title: "Data Structures & Algorithms: Analysis and Design",
+    description:
+      "Coursework applying core data structures and algorithm design principles to analyze and solve computational problems efficiently.",
+    tags: ["Data Structures", "Algorithms", "Analysis"],
+    repo: "https://github.com/merlin761/DSA-Analysis-Design",
+    demo: "",
+    icon: "fa-solid fa-diagram-project",
+  },
+  {
+    title: "Software Testing & Quality Assurance",
+    description:
+      "Coursework focused on software testing methodologies, quality assurance practices, and validating software reliability before release.",
+    tags: ["Software Testing", "QA", "Quality Assurance"],
+    repo: "https://github.com/merlin761/Software-Testing-Quality-Assurance",
+    demo: "",
+    icon: "fa-solid fa-vial",
+  },
+  {
+    title: "Client/Server Development",
+    description:
+      "Coursework building and analyzing client/server architecture and communication, documented in Jupyter Notebooks.",
+    tags: ["Client/Server", "Networking", "Jupyter Notebook"],
+    repo: "https://github.com/merlin761/module-cs-340",
+    demo: "",
+    icon: "fa-solid fa-server",
+  },
+  {
+    title: "Software Security",
+    description:
+      "Coursework covering secure software design principles, threat modeling, and defensive coding practices to reduce vulnerabilities.",
+    tags: ["Software Security", "Threat Modeling", "Secure Design"],
+    repo: "https://github.com/merlin761/Software_Security",
+    demo: "",
+    icon: "fa-solid fa-lock",
+  },
 ];
 
 export const experience = [
@@ -90,10 +144,9 @@ export const education = [
 ];
 
 export const certifications = [
-  "CompTIA Security+",
-  "CompTIA Network+",
-  "CompTIA CySA+",
   "CompTIA A+",
+  "CompTIA Network+",
+  "CompTIA Security+",
   "Splunk",
 ];
 
