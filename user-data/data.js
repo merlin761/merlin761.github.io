@@ -1,5 +1,5 @@
 export const bio = [
-  "IT Specialist & Jr. Security Operations Analyst — six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
+  "IT Specialist & Jr. Security Operations Analyst six years of experience across IT, customer service, and security operations, with a Computer Science background focused on secure, scalable automation.",
   "I specialize in building automated Python-based workflows that eliminate repetitive manual tasks and improve system efficiency, using tools like SentinelOne, Splunk, Wireshark, and Nmap to support active defense and continuous monitoring.",
   "Bilingual (English & Spanish), CompTIA A+/Network+/Security+ certified, and always looking to harden systems and streamline security operations through code.",
   "When I'm not automating defenses or locking down systems, you'll find me gaming or putting in work at the gym.",
@@ -27,64 +27,93 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Pace Secure Development Policy",
+    title: "C/C++ Secure Development Policy",
     description:
       "A detailed breakdown of C/C++ secure coding standards covering authentication, encryption, and auditing principles, clarifying the hierarchy of policies and guidelines for secure software development.",
-    tags: ["Secure Coding", "C/C++", "DevSecOps", "Policy"],
+    tags: [
+      "Secure Coding", 
+      "C/C++", 
+      "DevSecOps", 
+      "Policy", 
+      "Threat Modeling", 
+      "Secure SDLC", 
+      "Memory Safety", 
+      "Authentication Protocols"
+    ],
     repo: "https://github.com/merlin761/Secure_Coding",
     demo: "",
     icon: "fa-solid fa-shield-halved",
   },
   {
-    title: "Full Stack Development",
+    title: "Trip Planner — Full-Stack Web App",
     description:
-      "Coursework covering end-to-end web application development, from front-end interfaces to back-end logic and data handling.",
-    tags: ["Full Stack", "Web Development", "Front-End", "Back-End"],
+      "Built a full-stack Trip Planner application with secure coding practices at every layer — TLS/HTTPS encryption in transit, input validation, sanitized error handling, and environment-variable-protected database credentials — across an Angular SPA, Node.js/Express API, and MongoDB.",
+    tags: [
+      "Secure Coding", 
+      "TLS/HTTPS", 
+      "Angular", 
+      "Node.js", 
+      "MongoDB", 
+      "Secrets Management", 
+      "SAST / DAST", 
+      "Data in Transit Encryption", 
+      "API Security", 
+      "TLS / SSL"
+    ],
     repo: "https://github.com/merlin761/Full_Stack_Development",
     demo: "",
-    icon: "fa-solid fa-layer-group",
+    icon: "fa-solid fa-route",
   },
   {
-    title: "Current & Emerging Trends in Computer Science",
+    title: "AI Maze Solver — Q-Learning Agent",
     description:
-      "Research and analysis exploring current and emerging trends across the computer science field, documented in Jupyter Notebooks.",
-    tags: ["Research", "Computer Science", "Jupyter Notebook"],
+      "Implemented a Q-learning algorithm to train an AI agent through repeated exploration and exploitation cycles, applying the same responsible-design mindset used in security work — safe, predictable behavior over unchecked trial and error.",
+    tags: ["Python", "AI", "Reinforcement Learning", "Responsible Design"],
     repo: "https://github.com/merlin761/Current-Emerging-Trends-in-CS",
     demo: "",
-    icon: "fa-solid fa-chart-line",
+    icon: "fa-solid fa-brain",
   },
   {
-    title: "Data Structures & Algorithms: Analysis and Design",
+    title: "Data Structures & Algorithm Design",
     description:
-      "Coursework applying core data structures and algorithm design principles to analyze and solve computational problems efficiently.",
-    tags: ["Data Structures", "Algorithms", "Analysis"],
+      "Analyzed and designed core data structures and algorithms using pseudocode-first planning — the same efficiency-and-performance mindset that keeps systems fast, stable, and resistant to resource-exhaustion attacks.",
+    tags: ["Data Structures", "Algorithms", "Performance", "Analysis"],
     repo: "https://github.com/merlin761/DSA-Analysis-Design",
     demo: "",
     icon: "fa-solid fa-diagram-project",
   },
   {
-    title: "Software Testing & Quality Assurance",
+    title: "Software QA & Test Automation",
     description:
-      "Coursework focused on software testing methodologies, quality assurance practices, and validating software reliability before release.",
-    tags: ["Software Testing", "QA", "Quality Assurance"],
+      "Designed and executed unit and requirements-based tests with 90%+ coverage, specifically validating against incorrect and unexpected inputs — treating every test as a chance to catch a vulnerability before it shipped.",
+    tags: [
+      "Unit Testing", 
+      "Input Validation", 
+      "Test Coverage", 
+      "Secure Coding", 
+      "Dynamic Application Security Testing (DAST)", 
+      "Vulnerability Assessment", 
+      "Fuzz Testing"
+    ],
     repo: "https://github.com/merlin761/Software-Testing-Quality-Assurance",
     demo: "",
     icon: "fa-solid fa-vial",
   },
   {
-    title: "Client/Server Development",
+    title: "Zero Trust & DevSecOps Security Policy",
     description:
-      "Coursework building and analyzing client/server architecture and communication, documented in Jupyter Notebooks.",
-    tags: ["Client/Server", "Networking", "Jupyter Notebook"],
-    repo: "https://github.com/merlin761/module-cs-340",
-    demo: "",
-    icon: "fa-solid fa-server",
-  },
-  {
-    title: "Software Security",
-    description:
-      "Coursework covering secure software design principles, threat modeling, and defensive coding practices to reduce vulnerabilities.",
-    tags: ["Software Security", "Threat Modeling", "Secure Design"],
+      "Wrote a cybersecurity policy applying DevSecOps and Zero Trust principles — covering risk and cost analysis, AAA authentication, and encryption at rest, in transit, and in use — aligned with NIST, ISO 27001, and CIS frameworks.",
+    tags: [
+      "DevSecOps", 
+      "Zero Trust", 
+      "Risk Analysis", 
+      "NIST/ISO 27001", 
+      "IAM", 
+      "Network Segmentation", 
+      "Cryptography", 
+      "Data at Rest Encryption", 
+      "Micro-segmentation"
+    ],
     repo: "https://github.com/merlin761/Software_Security",
     demo: "",
     icon: "fa-solid fa-lock",
