@@ -12,7 +12,7 @@ function yearsOfExperience() {
 }
 function buildStats() {
   return [
-    { value: "6+", label: "Years of experience" },
+    { value: "4+", label: "Years of experience" },
     { value: "90+", label: "Daily customer support cases resolved" },
     { value: "99%", label: "First-call resolution rate" },
     { value: "80%", label: "Faster QBR prep through Python automation" },
